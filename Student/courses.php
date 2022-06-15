@@ -48,7 +48,7 @@ if (!isset($_SESSION['loggedin'])) {
             <div class="course">
                 <div class="modules">
                     <div class="theory" style="margin-left:0px;">
-                       <h3><a href="theory.php">Theorie des graphes</a></h3>
+                       <h3><a href="theory.php">Th&eacuteorie des graphes</a></h3>
                        <a href="contact/index.php"><p>Mr.Benouhaiba Toufik</p></a>
                     </div>
                     <div class="theory">
@@ -56,22 +56,22 @@ if (!isset($_SESSION['loggedin'])) {
                        <p>Mr.Cherif Tolba</p>
                     </div>
                     <div class="theory">
-                       <h3>Logique Mathematique</h3>
+                       <h3>Logique Math&eacutematique</h3>
                        <p>Mr.Mohamed Said Mehdi MENDJEL</p>
                     </div>
                     <div class="theory">
-                       <h3>Algorithmique et structure de données 3</h3>
+                       <h3>Algorithmique et structure de donn&eacutees 3</h3>
                        <p>Mr.Sabri Ghazi</p>
                     </div>
                 </div>
 
                 <div class="modules">
                     <div class="theory" style="margin-left:0px;">
-                       <h3>Systèmes d'information</h3>
+                       <h3>Syst&egravemes d'information</h3>
                        <p>Mm.Hassina Seridi</p>
                     </div>
                     <div class="theory">
-                       <h3>Méthodes Numériques</h3>
+                       <h3>M&eacutethodes Num&eacuteriques</h3>
                        <p>Mm.hakima BENLARBI</p>
                     </div>
                     <div class="theory">
@@ -79,7 +79,7 @@ if (!isset($_SESSION['loggedin'])) {
                        <p>Mm.Sara Stiti</p>
                     </div>
                     <div class="theory">
-                       <h3>Théorie des Langages</h3>
+                       <h3>Th&eacuteorie des Langages</h3>
                        <p>Mr.Toufik BENOUHIBA</p>
                     </div>
                 </div>
@@ -87,25 +87,24 @@ if (!isset($_SESSION['loggedin'])) {
 
                 <div class="modules">
                     <div class="theory" style="margin-left:0px;">
-                       <h3>Bases de Données</h3>
+                       <h3>Bases des Donn&eacutees</h3>
                        <p>Mm.Habiba BELLEILI</p>
                     </div>
                     <div class="theory">
-                       <h3>Développement Web</h3>
+                       <h3>D&eacuteveloppement Web</h3>
                        <p>Mr.Mohamed BESNACI</p>
                     </div>
                     <div class="theory">
-                       <h3>Systèmes d'exploitation 1</h3>
+                       <h3>Syst&egravemes d'exploitation 1</h3>
                        <p>Mr.Nadir FARAH</p>
                     </div>
                     <div class="theory">
-                       <h3>Réseaux</h3>
+                       <h3>R&eacuteseaux</h3>
                        <p>Mm.Fatiha DJEMILI</p>
                     </div>
                 </div>
             </div>
         </div>
-
 
 
 </body>
