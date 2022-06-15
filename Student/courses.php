@@ -32,10 +32,10 @@ if (!isset($_SESSION['loggedin'])) {
         <br>
         <div class="vertical-menu">
             <a href="student.php"><i class="fa fa-home" style="font-size:20px"> &nbsp;Home</i></a>
-            <a href="courses.php"  class="active"><i class="fa fa-book" style="font-size:20px"> &nbsp;Course</i></a>
+            <a href="courses.php"  class="active"><i class="fa fa-book" style="font-size:20px"> &nbsp;Courses</i></a>
             <a href="test.php"><i class="fa fa-file-text" style="font-size:20px"> &nbsp;Test</i></a>
             <a href="note.php"><i class="fa fa-comments" style="font-size:20px"> &nbsp;Result</i></a>
-            <a href="Profile.php"><i class="fa fa-user-circle-o" style="font-size:20px"> &nbsp;Profile</i></a>
+            <a href="Profile.php"><i class="fa fa-user-circle-o" style="font-size:20px"> &nbsp;Profil</i></a>
             <br><br>
             <a href="logout.php" style="color:red;"><i class="fas fa-sign-out-alt" style="font-size:20px"> &nbsp;Sign out</i></a>
         </div>
@@ -48,7 +48,7 @@ if (!isset($_SESSION['loggedin'])) {
             <div class="course">
                 <div class="modules">
                     <div class="theory" style="margin-left:0px;">
-                       <h3><a href="theory.php">Theory des graphes</a></h3>
+                       <h3><a href="theory.php">Theorie des graphes</a></h3>
                        <a href="contact/index.php"><p>Mr.Benouhaiba Toufik</p></a>
                     </div>
                     <div class="theory">
@@ -60,18 +60,18 @@ if (!isset($_SESSION['loggedin'])) {
                        <p>Mr.Mohamed Said Mehdi MENDJEL</p>
                     </div>
                     <div class="theory">
-                       <h3>Algorithmique et structure de données 3</h3>
+                       <h3>Algorithmique et structure de donnÃ©es 3</h3>
                        <p>Mr.Sabri Ghazi</p>
                     </div>
                 </div>
 
                 <div class="modules">
                     <div class="theory" style="margin-left:0px;">
-                       <h3>Systèmes d'information</h3>
+                       <h3>SystÃ¨mes d'information</h3>
                        <p>Mm.Hassina Seridi</p>
                     </div>
                     <div class="theory">
-                       <h3>Méthodes Numériques</h3>
+                       <h3>MÃ©thodes NumÃ©riques</h3>
                        <p>Mm.hakima BENLARBI</p>
                     </div>
                     <div class="theory">
@@ -79,7 +79,7 @@ if (!isset($_SESSION['loggedin'])) {
                        <p>Mm.Sara Stiti</p>
                     </div>
                     <div class="theory">
-                       <h3>Théorie des Langages</h3>
+                       <h3>ThÃ©orie des Langages</h3>
                        <p>Mr.Toufik BENOUHIBA</p>
                     </div>
                 </div>
@@ -87,19 +87,19 @@ if (!isset($_SESSION['loggedin'])) {
 
                 <div class="modules">
                     <div class="theory" style="margin-left:0px;">
-                       <h3>Bases de Données</h3>
+                       <h3>Bases de DonnÃ©es</h3>
                        <p>Mm.Habiba BELLEILI</p>
                     </div>
                     <div class="theory">
-                       <h3>Développement Web</h3>
+                       <h3>DÃ©veloppement Web</h3>
                        <p>Mr.Mohamed BESNACI</p>
                     </div>
                     <div class="theory">
-                       <h3>Systèmes d'exploitation 1</h3>
+                       <h3>SystÃ¨mes d'exploitation 1</h3>
                        <p>Mr.Nadir FARAH</p>
                     </div>
                     <div class="theory">
-                       <h3>Réseaux</h3>
+                       <h3>RÃ©seaux</h3>
                        <p>Mm.Fatiha DJEMILI</p>
                     </div>
                 </div>
