@@ -7,7 +7,7 @@
     <body>
         <h1>Bases de données MySQL</h1>  
         <?php
-            $servname = "localhost"; $dbname = "esl"; $username = "root"; $password = "";
+            $servname = "localhost"; $dbname = "els"; $username = "root"; $password = "";
             
             try{
                 $dbco = new PDO("mysql:host=$servname;dbname=$dbname", $username, $password);
