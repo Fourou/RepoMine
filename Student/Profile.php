@@ -12,7 +12,7 @@ $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_
 if (mysqli_connect_errno()) {
 	exit('Failed to connect to MySQL: ' . mysqli_connect_error());
 }
-//nrecuperiw lemail et le mot de passe ml base de données 
+//nrecuperiw lemail et le mot de passe ml base de donnÃ©es 
 $stmt = $con->prepare('SELECT motpasse, email FROM apprenants WHERE id = ?');
 //nst3mlo lid pour recuperer les informations du compte
 $stmt->bind_param('i', $_SESSION['id']);
@@ -46,10 +46,10 @@ $stmt->close();
         <br>
         <div class="vertical-menu">
             <a href="student.php"><i class="fa fa-home" style="font-size:20px"> &nbsp;Home</i></a>
-            <a href="courses.php"><i class="fa fa-book" style="font-size:20px"> &nbsp;Course</i></a>
+            <a href="courses.php"><i class="fa fa-book" style="font-size:20px"> &nbsp;Courses</i></a>
             <a href="test.php"><i class="fa fa-file-text" style="font-size:20px"> &nbsp;Test</i></a>
             <a href="note.php" ><i class="fa fa-comments" style="font-size:20px"> &nbsp;Result</i></a>
-            <a href="Profile.php"  class="active"><i class="fa fa-user-circle-o" style="font-size:20px"> &nbsp;Profile</i></a>
+            <a href="Profile.php"  class="active"><i class="fa fa-user-circle-o" style="font-size:20px"> &nbsp;Profil</i></a>
             <br><br>
             <a href="logout.php" style="color:red;"><i class="fas fa-sign-out-alt" style="font-size:20px"> &nbsp;Sign out</i></a>
         </div>
