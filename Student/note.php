@@ -72,10 +72,10 @@ td {
         <br>
         <div class="vertical-menu">
             <a href="student.php"><i class="fa fa-home" style="font-size:20px"> &nbsp;Home</i></a>
-            <a href="courses.php"><i class="fa fa-book" style="font-size:20px"> &nbsp;Course</i></a>
+            <a href="courses.php"><i class="fa fa-book" style="font-size:20px"> &nbsp;Courses</i></a>
             <a href="test.php"><i class="fa fa-file-text" style="font-size:20px"> &nbsp;Test</i></a>
             <a href="note.php" class="active" ><i class="fa fa-comments" style="font-size:20px"> &nbsp;Result</i></a>
-            <a href="Profile.php" ><i class="fa fa-user-circle-o" style="font-size:20px"> &nbsp;Profile</i></a>
+            <a href="Profile.php" ><i class="fa fa-user-circle-o" style="font-size:20px"> &nbsp;Profil</i></a>
             <br><br>
             <a href="logout.php" style="color:red;"><i class="fas fa-sign-out-alt" style="font-size:20px"> &nbsp;Sign out</i></a>
         </div>
@@ -90,7 +90,7 @@ td {
                 <th>username</th>
                 <th>result</th>
                 </tr>
-   <!--lphp li nrecuper baha les informations des notes mn lbase de données-->
+   <!--lphp li nrecuper baha les informations des notes mn lbase de donnÃ©es-->
     <?php
 $DATABASE_HOST = 'localhost';
 $DATABASE_USER = 'root';
