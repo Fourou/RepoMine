@@ -77,7 +77,7 @@ td {
         <br>
         <div class="vertical-menu">
             <a href="teac.php"><i class="fa fa-home" style="font-size:20px"> &nbsp;Home</i></a>
-            <a href="myfilemgr/index.php"><i class="fa fa-book" style="font-size:20px"> &nbsp;Course</i></a>
+            <a href="myfilemgr/index.php"><i class="fa fa-book" style="font-size:20px"> &nbsp;Courses</i></a>
             <a href="test/index.php"><i class="fa fa-file-text" style="font-size:20px"> &nbsp;Test</i></a>
             <a href="note.php" class="active" ><i class="fa fa-comments" style="font-size:20px"> &nbsp;Result</i></a>
             <a href="proT.php" ><i class="fa fa-user-circle-o" style="font-size:20px"> &nbsp;Profil</i></a>
@@ -88,7 +88,7 @@ td {
         <div class="main" style="margin-top:0px;">
                         <h2>Results</h2>
                         <div class="well-sm col-sm-12">
-		<!--le button de exporter les données vers excel-->
+		<!--le button de exporter les donnÃ©es vers excel-->
 		<div class="btn-group pull-right" >	
 			<form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post">					
 				<button type="submit" id="export_data" name='export_data' value="Export to excel" class="btn btn-info" style="width:300px;">Export to excel</button>
