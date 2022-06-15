@@ -32,7 +32,7 @@ if (!isset($_SESSION['loggedin'])) {
         <br>
         <div class="vertical-menu">
             <a href="teac.php" class="active"><i class="fa fa-home" style="font-size:20px"> &nbsp;Home</i></a>
-            <a href="myfilemgr/index.php"><i class="fa fa-book" style="font-size:20px"> &nbsp;Courses</i></a>
+            <a href="myfilemgr/index.php"><i class="fa fa-book" style="font-size:20px"> &nbsp;Cours</i></a>
             <a href="test/index.php"><i class="fa fa-file-text" style="font-size:20px"> &nbsp;Test</i></a>
             <a href="note.php"><i class="fa fa-comments" style="font-size:20px"> &nbsp;Result</i></a>
             <a href="proT.php"><i class="fa fa-user-circle-o" style="font-size:20px"> &nbsp;Profil</i></a>
