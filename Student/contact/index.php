@@ -18,7 +18,7 @@ if(!empty($_POST["send"])) {
 	$message = $_POST["message"];
 
 	//$connexion = mysqli_connect("localhost", "root", "", "contact-form") or die("Erreur de connexion: " . mysqli_error($connexion));
-	$connexion = mysqli_connect("localhost", "root", "", "esl") or die("Erreur de connexion: " . mysqli_error($connexion));
+	$connexion = mysqli_connect("localhost", "root", "", "els") or die("Erreur de connexion: " . mysqli_error($connexion));
 	$result = mysqli_query($connexion, "INSERT INTO contact (id,name,email,subject, message) VALUES ('" . $id. "', '" . $name. "', '" . $email. "','" . $subject. "','" . $message. "')");
 	if($result){
 		$db_msg = "Vos informations de contact sont enregistrées avec succés.";
