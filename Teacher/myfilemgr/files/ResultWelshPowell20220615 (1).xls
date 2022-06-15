@@ -1,0 +1,5 @@
+<!--la page de resultat de devoir welsh powel cote enseignant apres l'etudiant amdyir leur exercice tethat la note ta3o fi base de donnes apres nrecupiriwha dans un tableau apres l'enseignant il peut le telechrger dans fichier excel-->
+<!--php de recuperer les informations mtable de reponse et forcer de exporter ces informations on fichier excel avec le nom resultat welsh powell-->
+id	utilisateur	note	date
+1	raounek.arif	10	0000-00-00 00:00:00
+2	roubila.khaldi	10	0000-00-00 00:00:00
