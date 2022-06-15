@@ -35,7 +35,7 @@ if (!isset($_SESSION['loggedin'])) {
             <a href="courses.php"><i class="fa fa-book" style="font-size:20px"> &nbsp;Courses</i></a>
             <a href="test.php"><i class="fa fa-file-text" style="font-size:20px"> &nbsp;Test</i></a>
             <a href="note.php"><i class="fa fa-comments" style="font-size:20px"> &nbsp;Result</i></a>
-            <a href="Profile.php"><i class="fa fa-user-circle-o" style="font-size:20px"> &nbsp;Profile</i></a>
+            <a href="Profile.php"><i class="fa fa-user-circle-o" style="font-size:20px"> &nbsp;Profil</i></a>
             <br><br>
             <a href="logout.html" style="color:red;"><i class="fas fa-sign-out-alt" style="font-size:20px"> &nbsp;Sign out</i></a>
         </div>
