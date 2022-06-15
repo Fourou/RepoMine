@@ -110,11 +110,8 @@ if (!isset($_SESSION['loggedin'])) {
             
               
             <div> 
-              <h6 style="color:rgb(85, 104, 211)";>In case the vertices have the same degree: color by order </h6>
                 <label >Color palette
                         <input type="text" name="custom-color" placeholder="#FFFFFF" id="pickcolor" class="call-picker" title="Cliquer ici pour ajouter une couleur">
-                          <!--div class="color-holder call-picker"></div>
-                          <!--label data-tooltip="colorer par ordre en cas les sommets ont le méme degré" for="colorWell">Color:</label-->
                           <div class="color-picker" id="color-picker"></div>
                       </label>
               </div>
@@ -122,7 +119,7 @@ if (!isset($_SESSION['loggedin'])) {
               
               
                <script>
-              var colorList = ['808080', 'FF0000', 'FFFF00', '0000FF', '00FF00', 'FF00FF', '800080', 'C0C0C0', '800000', '008000' ];
+              var colorList = ['808080', 'FF0000', 'FFFF00', '0000FF', '00FF00', 'FF00FF', '800080', 'C0C0C0', '800000', '008000','00FFFF', '008080' ];
               var picker = $('#color-picker');
               
               for (var i = 0; i < colorList.length; i++ )
