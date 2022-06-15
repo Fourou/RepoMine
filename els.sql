@@ -15,7 +15,9 @@ CREATE TABLE IF NOT EXISTS `apprenants` (
 
 INSERT INTO `apprenants`(`id`, `utilisateur`, `nom`, `prenom`, `motpasse`, `email`) 
 VALUES ('1','raounek.arif','arif','raounek','$2y$10$aDTV1YcxLUvTxDU.RYqnKeAPMmGshPec4MwGpc08dbYomg7ns.C0u','raounekarif@gmail.com'),
-  ('2','roubila.khaldi','khaldi','roubila','$2y$10$/5wEl6N8gyajTYKEONXpMeetLRPtnPhBpUDat8DALwUoQqp4I3k5W','roubila110@gmail.com');
+  ('2','roubila.khaldi','khaldi','roubila','$2y$10$/5wEl6N8gyajTYKEONXpMeetLRPtnPhBpUDat8DALwUoQqp4I3k5W','roubila110@gmail.com'),
+  ('3','ranime.bmd','Bmd','ranime','$2y$10$/5wEl6N8gyajTYKEONXpMeetLRPtnPhBpUDat8DALwUoQqp4I3k5W','ranime.bmd@gmail.com'),
+  ('4','arouil.nossa','arouil','nossa','$2y$10$aDTV1YcxLUvTxDU.RYqnKeAPMmGshPec4MwGpc08dbYomg7ns.C0u','arouilsona@gmail.com');
 
 /* Table structure for table 'enseignant' */
 
