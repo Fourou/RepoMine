@@ -9,7 +9,7 @@ try {
     $password = "";
    
     $conn = new PDO(
-        "mysql:host=$servername; dbname=esl",
+        "mysql:host=$servername; dbname=els",
         $username, $password
     );
       
