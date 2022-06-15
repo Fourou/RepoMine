@@ -1,3 +1,25 @@
+style.css
+Who has access
+R
+System properties
+Type
+Style Sheet
+Size
+216 KB
+Storage used
+432 KB
+Location
+css
+Owner
+Roubila
+Modified
+04:58 by Roubila
+Opened
+08:41 by me
+Created
+13 Jun 2022
+No description
+Viewers can download
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -5,6 +27,27 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -1456,7 +1499,7 @@ pre {
 .table-light,
 .table-light > th,
 .table-light > td {
-  background-color: #FFFFFF; }
+  background-color: #fdfdfe; }
 
 .table-light th,
 .table-light td,
@@ -8169,7 +8212,7 @@ h1, h2, h3, h4, h5,
   background: #fff; }
 
 .calendar_weekdays {
-  background: purple; }
+  background: #1089ff; }
 
 .calendar_header {
   padding: 10px 0; }
@@ -8227,7 +8270,7 @@ h1, h2, h3, h4, h5,
     height: 40px;
     border-radius: 50%;
     margin: 0 auto;
-    background: purple;
+    background: #1089ff;
     z-index: -1;
     -webkit-box-shadow: 0px 5px 11px -9px rgba(0, 0, 0, 0.48);
     -moz-box-shadow: 0px 5px 11px -9px rgba(0, 0, 0, 0.48);
