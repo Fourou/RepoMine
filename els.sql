@@ -17,7 +17,8 @@ INSERT INTO `apprenants`(`id`, `utilisateur`, `nom`, `prenom`, `motpasse`, `emai
 VALUES ('1','raounek.arif','arif','raounek','$2y$10$aDTV1YcxLUvTxDU.RYqnKeAPMmGshPec4MwGpc08dbYomg7ns.C0u','raounekarif@gmail.com'),
   ('2','roubila.khaldi','khaldi','roubila','$2y$10$/5wEl6N8gyajTYKEONXpMeetLRPtnPhBpUDat8DALwUoQqp4I3k5W','roubila110@gmail.com'),
   ('3','ranime.bmd','Bmd','ranime','$2y$10$/5wEl6N8gyajTYKEONXpMeetLRPtnPhBpUDat8DALwUoQqp4I3k5W','ranime.bmd@gmail.com'),
-  ('4','arouil.nossa','arouil','nossa','$2y$10$aDTV1YcxLUvTxDU.RYqnKeAPMmGshPec4MwGpc08dbYomg7ns.C0u','arouilsona@gmail.com');
+  ('4','oumaima.bmz','Boumaza','Oumaima','$2y$10$aDTV1YcxLUvTxDU.RYqnKeAPMmGshPec4MwGpc08dbYomg7ns.C0u','oumaimabmz@gmail.com'),
+  ('5','wail.snn','snani','wail','$2y$10$aDTV1YcxLUvTxDU.RYqnKeAPMmGshPec4MwGpc08dbYomg7ns.C0u','wail.snn@gmail.com');
 
 /* Table structure for table 'enseignant' */
 
@@ -32,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `enseignant` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 INSERT INTO `enseignant`(`id`, `utilisateur`, `nom`, `prenom`, `motpasse`, `email`) 
-VALUES ('1','boudjedir','boudjedir','amina','$2y$10$aDTV1YcxLUvTxDU.RYqnKeAPMmGshPec4MwGpc08dbYomg7ns.C0u,','a.boudjedir@hotmail.fr');
+VALUES ('1','boudjedir','boudjedir','amina','$2y$10$x/MyTLXqQUXQHCnUEx6NWeIECncpfxWs4s.u7p0mTtLD.0d.KAArS','a.boudjedir@hotmail.fr');
 
 /* Table structure for table 'administrateur' */
 
