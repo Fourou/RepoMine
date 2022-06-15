@@ -4,7 +4,7 @@ $conn = "";
   
 try {
     $servername = "localhost";
-    $dbname = "esl";
+    $dbname = "els";
     $username = "root";
     $password = "";
    
