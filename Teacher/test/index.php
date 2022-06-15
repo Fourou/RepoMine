@@ -15,7 +15,7 @@ if(isset($_POST['submit'])!=""){
   $link=$_POST['link'];
   
   move_uploaded_file($temp,"files/".$nom);
-//ay fichier nzidoh nb3toh llbase de données dans la table devoir
+//ay fichier nzidoh nb3toh llbase de donnÃ©es dans la table devoir
 $query=$conn->query("INSERT INTO devoir (nom,date) VALUES ('$nom','$date')");
 if($query){
 header("location:index.php");
@@ -171,7 +171,7 @@ body{
 
 			<tr style="width:500px;"><td><form enctype="multipart/form-data"  action="" id="wb_Form1" name="form" method="post">
 					<input type="file" name="photo" id="photo"  required="required"></td>
-					<td> <input type="text" name="nom_module" id="nom_module"></td><td><input type="submit" class="btn btn-danger" value="SUBMIT" name="submit">
+					<td><input type="submit" class="btn btn-danger" value="SUBMIT" name="submit">
 			</form> <strong>SUBMIT HERE</strong></tr></td></table>
 							 
 							 <!------------------>
