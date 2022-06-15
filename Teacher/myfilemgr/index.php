@@ -159,7 +159,7 @@ else{
    <div class = "row">
 		<div class="panel panel-default" style="margin-top:40px;border-radius:10px;" >
 			<div class="panel-body" style="height:560px;margin-top:40px;border-radius:10px;">
-						<h3>Add Course</h3>
+						<h3>Add Courses</h3>
 				<div class="table-responsive" style="margin-top:50px;">
 
 <!---------------->
